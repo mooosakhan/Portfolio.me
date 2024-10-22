@@ -22,7 +22,7 @@ I am a passionate developer currently working on improving my skills in web deve
 
 ## 🛠️ Technologies I'm Working With
 
-- **Frontend**: HTML5, CSS3, JavaScript, React
+- **Frontend**:  JavaScript, React , SCSS , Tailwind ,Three js ,React Three Fiber
 - **Backend**: Python, Flask, Node js
 - **Database**: MySQL
 - **Version Control**: Git, GitHub
