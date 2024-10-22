@@ -6,12 +6,7 @@ import Layout from './components/Layout';
 function App() {
   return (
     <>
-      <Routes>
-        <Route path='/' element={<Layout />}>
-          {/* Nested route: Home will be rendered within Layout */}
-          {/* <Route index element={<Home />} /> */}
-        </Route>
-      </Routes>
+     <h1>moosa</h1>
     </>
   );
 }
