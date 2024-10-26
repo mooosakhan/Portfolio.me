@@ -18,12 +18,15 @@ import {
   faClose,
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
+import Loader from 'react-loaders'
+
 
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <div className="nav-bar">
+    <>
+       <div className="nav-bar">
       <Link 
         className="logo"
         to="/"
@@ -35,21 +38,21 @@ const Sidebar = () => {
         <NavLink 
           exact="true"
           activeclassname="active"
-          to="/"
+          to="/Portfolio.me/"
           onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
         <NavLink 
           activeclassname="active"
           className="about-link"
-          to="/about"
+          to="/Portfolio.me/about"
           onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
         <NavLink
           activeclassname="active"
           className="portfolio-link"
-          to="/portfolio"
+          to="/Portfolio.me/portfolio"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
@@ -57,7 +60,7 @@ const Sidebar = () => {
         <NavLink
           activeclassname="active"
           className="contact-link"
-          to="/contact"
+          to="/Portfolio.me/contact"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
@@ -72,7 +75,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://www.linkedin.com/in/moosa-khan-ab762b299/"
             target="_blank"
             rel="noreferrer"
           >
@@ -85,7 +88,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/mooosakhan"
             target="_blank"
             rel="noreferrer"
           >
@@ -96,28 +99,7 @@ const Sidebar = () => {
             />
           </a>
         </li>
-        <li>
-          <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon
-              icon={faYoutube}
-              color="#4d4d4e"
-              className="anchor-icon"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon
-              icon={faSkype}
-              color="#4d4d4e"
-              className="anchor-icon"
-            />
-          </a>
-        </li>
+       
       </ul>
       <FontAwesomeIcon 
           onClick={() => setShowNav(true)}
@@ -126,6 +108,9 @@ const Sidebar = () => {
           size="3x"
           className='hamburger-icon' />
     </div>
+    <Loader type="pacman" />
+    </>
+    
   )
 }
 

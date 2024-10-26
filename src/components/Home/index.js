@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
+import Learn from '../../assets/images/Learning.gif'
 import './index.scss'
 import { useEffect, useState } from 'react'
+import Loader from 'react-loaders'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
-    const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n']
+    const nameArray = [' ' , 'M', 'o', 'o', 's', 'a']
     const jobArray = [
       'w',
       'e',
@@ -36,6 +38,7 @@ const Home = () => {
       
 
     return (
+      <>
         <div className="container home-page">
         <div className="text-zone">
           <h1>
@@ -46,10 +49,7 @@ const Home = () => {
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _15`}>'</span>
             <span className={`${letterClass} _12`}>m</span>
-            <img
-              src={LogoTitle}
-              alt="JavaScript Developer Name, Web Developer Name"
-            />
+          
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -63,12 +63,15 @@ const Home = () => {
             />
           </h1>
           <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
-          <Link to="/contact" className="flat-button">
+          <Link to="/Portfolio.me/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
-   
+       {/* <img src={Learn} alt="" /> */}
+       
       </div>
+      <Loader type='pacman' />
+      </>
     )
 }
 
