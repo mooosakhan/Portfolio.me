@@ -14,7 +14,7 @@ const Portfolio = () => {
             image: popcorn,
             name: "Usepopcorn - Movie Website",
             description: "A movie website where you can search for movies, view details, and give ratings. Built with React.",
-            url: "https://github.com/mooosakhan/Usepopcorn"
+            url: "https://usepopcornwebsite.vercel.app/"
         },
         {
             image: ochi,
