@@ -1,9 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio.me/static/css/main.1450e358.css",
-    "main.js": "/Portfolio.me/static/js/main.a0550fbc.js",
+    "main.js": "/Portfolio.me/static/js/main.88047eaa.js",
     "static/js/453.32ec0147.chunk.js": "/Portfolio.me/static/js/453.32ec0147.chunk.js",
+    "static/media/image.png": "/Portfolio.me/static/media/image.50c5829819530437a208.png",
     "static/media/Learning.gif": "/Portfolio.me/static/media/Learning.fff7f3253e597e237abb.gif",
+    "static/media/ESS.png": "/Portfolio.me/static/media/ESS.410c39996c298148b3be.png",
+    "static/media/Exclusiveecom.png": "/Portfolio.me/static/media/Exclusiveecom.508b82a97c456bf4ee5f.png",
     "static/media/3DPortfolio.jpg": "/Portfolio.me/static/media/3DPortfolio.5ce2b2f4ccccc91e790c.jpg",
     "static/media/Ochi.jpg": "/Portfolio.me/static/media/Ochi.b5a9a50332ec3fe40b27.jpg",
     "static/media/Usepopcorn.jpg": "/Portfolio.me/static/media/Usepopcorn.767710d8a23c490f9112.jpg",
@@ -15,11 +18,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/Portfolio.me/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/Portfolio.me/index.html",
     "main.1450e358.css.map": "/Portfolio.me/static/css/main.1450e358.css.map",
-    "main.a0550fbc.js.map": "/Portfolio.me/static/js/main.a0550fbc.js.map",
+    "main.88047eaa.js.map": "/Portfolio.me/static/js/main.88047eaa.js.map",
     "453.32ec0147.chunk.js.map": "/Portfolio.me/static/js/453.32ec0147.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1450e358.css",
-    "static/js/main.a0550fbc.js"
+    "static/js/main.88047eaa.js"
   ]
 }
