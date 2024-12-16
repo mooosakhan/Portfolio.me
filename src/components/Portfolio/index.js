@@ -5,6 +5,9 @@ import "./index.scss";
 import ochi from '../../assets/images/Ochi.jpg';
 import portfolio3D from '../../assets/images/3DPortfolio.jpg';
 import popcorn from '../../assets/images/Usepopcorn.jpg';
+import ESS from '../../assets/images/ESS.png';
+import ESS2 from '../../assets/images/image.png';
+import EE from '../../assets/images/Exclusiveecom.png';
 
 
 const Portfolio = () => { 
@@ -27,6 +30,18 @@ const Portfolio = () => {
             name: "3D Portfolio Website",
             description: "A 3D canvas portfolio website created with Three.js for interactive and visually engaging elements.",
             url: "https://mooosakhan.github.io/Portfolio/"
+        },
+        {
+            image: ESS2,
+            name: "Exam Scheduling System",
+            description: "The Exam Scheduling System is a web application designed to simplify the process of scheduling university exams. (Frontend)",
+            url: "https://exam-scheduling-system.vercel.app"
+        },
+        {
+            image: EE,
+            name: "Exclusive Ecommerce",
+            description: "Exclusive Ecommerce web application designed to simplify the process",
+            url: "https://exclusives-ecommerce.vercel.app"
         }
     ]);
 
