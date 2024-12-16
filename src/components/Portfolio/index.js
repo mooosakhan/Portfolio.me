@@ -40,7 +40,7 @@ const Portfolio = () => {
         {
             image: EE,
             name: "Exclusive Ecommerce",
-            description: "Exclusive Ecommerce web application designed to simplify the process",
+            description: "Exclusive Ecommerce an ecommerce website",
             url: "https://exclusives-ecommerce.vercel.app"
         }
     ]);
